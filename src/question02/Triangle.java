@@ -2,9 +2,9 @@ package question02;
 
 public class Triangle {
 
-    private Point2D p1;
-    private Point2D p2;
-    private Point2D p3;
+    private final Point2D p1;
+    private final Point2D p2;
+    private final Point2D p3;
 
     public Triangle(Point2D p1, Point2D p2, Point2D p3) {
         this.p1 = p1;
